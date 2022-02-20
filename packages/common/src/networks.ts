@@ -5,4 +5,6 @@ export enum Networks {
   DEV_UNSTABLE = 'dev-unstable',
   LOCAL = 'local',
   INMEMORY = 'inmemory',
+  AKAMAIN = 'akamain',
+  AKATEST = 'akatest'
 }
