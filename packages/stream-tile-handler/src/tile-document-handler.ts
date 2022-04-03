@@ -213,7 +213,7 @@ export class TileDocumentHandler implements StreamHandler<TileDocument> {
     controller: string
   ): Promise<void> {
     await context.did.verifyJWS(commitData.envelope, {
-      atTime: commitData.timestamp,
+      atTime: new Date(commitData.timestamp * 1000),
       issuer: controller,
       disableTimecheck: commitData.disableTimecheck,
     })

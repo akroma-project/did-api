@@ -1,0 +1,25 @@
+curl -X GET http://localhost:8081/service-info/chainid
+curl -X GET http://localhost:8081/api/v0/service-info/supported_chains
+curl -X GET http://localhost:8081/api/v0/health-check
+curl -X GET http://localhost:8081/api/v0/healthcheck
+curl -X POST http://localhost:8081/requests --data ' {
+        "cid": "bafyreihgmyh2srmmyiw7fdihrc2lw2uodvpxb2hbpyxo7w2jlqizga6pne",
+        "docId": "doc_875c56f9-9d5d-4031-8d3d-d171a91b15aa" 
+  }'[A
+curl -X POST http://localhost:8081/api/v0/requests --data ' {
+        "cid": "bafyreihgmyh2srmmyiw7fdihrc2lw2uodvpxb2hbpyxo7w2jlqizga6pne",
+        "docId": "doc_875c56f9-9d5d-4031-8d3d-d171a91b15aa" 
+  }'
+curl -X POST http://localhost:8081/api/v0/requests --data ' {
+        "cid": "bafyreihgmyh2srmmyiw7fdihrc2lw2uodvpxb2hbpyxo7w2jlqizga6pne",
+        "docId": "doc_875c56f9-9d5d-4031-8d3d-d171a91b15aa" 
+  }'
+curl -X POST http://localhost:8081/api/v0/requests --data ' {
+        "cid": "bafyreihgmyh2srmmyiw7fdihrc2lw2uodvpxb2hbpyxo7w2jlqizga6pne",
+        "docId": "doc_875c56f9-9d5d-4031-8d3d-d171a91b15aa" 
+  }'
+curl -X POST http://localhost:8081/api/v0/requests --data ' {
+        "cid": "bafyreihgmyh2srmmyiw7fdihrc2lw2uodvpxb2hbpyxo7w2jlqizga6pne",
+        "docId": "doc_875c56f9-9d5d-4031-8d3d-d171a91b15aa" 
+  }'
+curl -X GET http://localhost:8081/api/v0/service-info/supported_chains
