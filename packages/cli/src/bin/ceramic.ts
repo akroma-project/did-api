@@ -33,7 +33,7 @@ program
   )
   .option(
     '--network <name>',
-    'Name of the ceramic network to connect to. One of: "mainnet", "testnet-clay", "dev-unstable", "local", or "inmemory". Defaults to "testnet-clay"'
+    'Name of the ceramic network to connect to. One of: "mainnet", "testnet-clay", "dev-unstable", "local", "inmemory", "akamain" or "akatest". Defaults to "testnet-clay"'
   )
   .option('--pubsubTopic <string>', 'Pub/sub topic to use for protocol messages')
   .option(

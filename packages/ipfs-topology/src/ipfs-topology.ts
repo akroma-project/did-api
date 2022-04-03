@@ -5,6 +5,10 @@ import { Multiaddr } from 'multiaddr'
 
 const PEER_FILE_URLS = (ceramicNetwork: Networks): string | null => {
   switch (ceramicNetwork) {
+    case Networks.AKAMAIN:
+      return null
+    case Networks.AKATEST:
+        return null
     case Networks.MAINNET:
     case Networks.ELP:
       return 'https://raw.githubusercontent.com/ceramicnetwork/peerlist/main/mainnet.json'
@@ -53,6 +57,10 @@ const BASE_BOOTSTRAP_LIST = (ceramicNetwork: Networks): Array<Multiaddr> | null 
           '/dns4/ipfs-ceramic-private-cas-clay-external.3boxlabs.com/tcp/4012/wss/p2p/QmbeBTzSccH8xYottaYeyVX8QsKyox1ExfRx7T1iBqRyCd'
         ),
       ]
+    case Networks.AKAMAIN:
+      return null
+    case Networks.AKATEST:
+      return null
     case Networks.DEV_UNSTABLE:
     case Networks.LOCAL:
     case Networks.INMEMORY:
