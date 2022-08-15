@@ -40,7 +40,7 @@
     "aws-sdk": "^2.1049.0",
     "blockstore-datastore-adapter": "^2.0.3",
     "dag-jose": "^1.0.0",
-    "datastore-fs": "^6.0.1",
+    "datastore-fs": "^8.0.0",
     "datastore-level": "^7.0.1",
     "datastore-s3": "^8.0.0",
     "express": "^4.17.2",
