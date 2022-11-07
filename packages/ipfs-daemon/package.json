@@ -41,7 +41,7 @@
     "blockstore-datastore-adapter": "^2.0.3",
     "dag-jose": "^1.0.0",
     "datastore-fs": "^6.0.1",
-    "datastore-level": "^7.0.1",
+    "datastore-level": "^9.0.4",
     "datastore-s3": "^8.0.0",
     "express": "^4.17.2",
     "get-port": "^6.0.0",
